@@ -10,7 +10,7 @@ class LocationsController < ApplicationController
 
   # GET /locations/1
   def show
-    render json: @location
+    render json: @location, include: [:houses, :roads, :scores], except: [:created_at, :updated_at, :location_id]
   end
 
 
