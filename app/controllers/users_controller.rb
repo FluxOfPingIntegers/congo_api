@@ -21,6 +21,8 @@ class UsersController < ApplicationController
       @user = User.find_by(username: params[:user][:username])
       if @user.authenticate(params[:user][:password])
         return render json: @user
+      else
+        return render json: {message: "incorrect username and/or password"}, status: :unprocessable_entity
       end
     end
 
