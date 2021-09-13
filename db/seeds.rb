@@ -6,16 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-#user = User.create(username: "tester", email: "foo@bar.com", password: "test")
-#first_location = Location.create(time: 120, background: "rgba(11,156,49,0.6)", deliveries: 12)
+user = User.create(username: "tester", email: "foo@bar.com", password: "test")
+first_location = Location.create(time: 120, background: "rgba(11,156,49,0.6)", deliveries: 12)
 first_location = Location.all[0]
-first_location.roads.build(x: 0, y: 350, dx: 500, dy: 50).save
-first_location.roads.build(x: 500, y: 125, dx: 50, dy: 500).save
-first_location.roads.build(x: 550, y: 125, dx: 800, dy: 50).save
-first_location.roads.build(x: 1300, y: 125, dx: 50, dy: 500).save
-first_location.roads.build(x: 550, y: 575, dx: 800, dy: 50).save
-first_location.roads.build(x: 825, y: 125, dx: 50, dy: 500).save
-first_location.roads.build(x: 875, y: 350, dx: 425, dy: 50).save
+first_location.roads.build(x: -20, y: 330, dx: 500, dy: 20).save
+first_location.roads.build(x: 480, y: 105, dx: 20, dy: 470).save
+first_location.roads.build(x: 530, y: 105, dx: 770, dy: 20).save
+first_location.roads.build(x: 1280, y: 105, dx: 20, dy: 470).save
+first_location.roads.build(x: 530, y: 555, dx: 770, dy: 20).save
+first_location.roads.build(x: 805, y: 105, dx: 20, dy: 470).save
+first_location.roads.build(x: 855, y: 330, dx: 395, dy: 20).save
 
 first_location.houses.build(x: 475, y: 14, dx: 50, dy: 50, direction: "south", delivery: 1, dog: 0).save
 first_location.houses.build(x: 550, y: 14, dx: 50, dy: 50, direction: "south", delivery: 0, dog: 0).save
