@@ -16,6 +16,7 @@ class ScoresController < ApplicationController
   # POST /scores
   def create
     @score = Score.new(score_params)
+    byebug
 
     if @score.save
       render json: @score, status: :created, location: @score
@@ -46,6 +47,6 @@ class ScoresController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def score_params
-      params.require(:score).permit(:points, :user_id, :location_id)
+      params.require(:score).permit(:points, :user_id, :location_id, :username)
     end
 end
