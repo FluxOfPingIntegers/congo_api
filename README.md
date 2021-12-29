@@ -11,9 +11,24 @@ This is a RESTful API serving JSON data to a javascript game frontend that can b
 
 ## Getting Started
 
-* Step 1: within your terminal inside the main branch for this project within VS code type 'bundle update' and press enter. Then type 'bundle install' and hit enter again.
+* Step 1: within your terminal inside the main branch for this project within VS code you will need to update all the ruby gems used by this repo.  Do so by entering the following
+```bash
+bundle update
+```
+Then you will need to apply these updates, do so by entering
+```bash
+bundle install
+```
 
-* Step 2: Again within your terminal inside the main branch for this project within VS code type 'rails db:seed' to populate your database, then 'rails s' to start this server on your local machine.  To stop this process press CTRL+C.  You will need to do this within your terminal whenever you wish to shut down your server as it does tend to run even when VS Code is exited.
+* Step 2: Now you will need to populate the database for this project from its seed file, again within your terminal inside the main branch for this project within VS code type
+```bash
+rails db:seed
+```
+Now that your database has all of the information stored that will be used to serve the front end.  Its time to fire up this rails backend server!  Do so by entering the following
+```bash
+rails s
+```
+To stop this process press CTRL+C.  You will need to do this within your terminal whenever you wish to shut down your server as it does tend to run even when VS Code is exited.
 
 * Step 3: Go to the instructions found [here](https://github.com/FluxOfPingIntegers/congo_client) to start playing this game.
 
