@@ -1,4 +1,4 @@
-## Congo API
+# Congo API
 
 This is a RESTful API serving JSON data to a javascript game frontend that can be found [here](https://github.com/FluxOfPingIntegers/congo_client)  The models provided by this API are User, Score, Road, and Location.  The model associations are as follows:
 
