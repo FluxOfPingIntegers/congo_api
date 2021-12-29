@@ -27,11 +27,11 @@ This is a RESTful API serving JSON data to a javascript game frontend that can b
 ```bash
 git clone git@github.com:FluxOfPingIntegers/congo_api.git
 ```
-then switch to the folder you just created by typing
+  then switch to the folder you just created by typing
 ```bash
 cd congo_api
 ```
-finally you will need to fire up VS code by entering
+  finally you will need to fire up VS code by entering
 ```bash
 code .
 ```
