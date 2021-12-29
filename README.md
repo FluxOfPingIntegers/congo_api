@@ -19,7 +19,7 @@ This is a RESTful API serving JSON data to a javascript game frontend that can b
 
 ## Installation
 
-* First You will need developer software, I used Visual Studio Code. Depending on your operating system you should follow these instructions: [Windows](https://code.visualstudio.com/docs/setup/windows) [macOS](https://code.visualstudio.com/docs/setup/mac) [Linux](https://code.visualstudio.com/docs/setup/linux)
+* First You will need developer software, I used Visual Studio Code. Depending on your operating system you should follow these instructions: [Windows](https://code.visualstudio.com/docs/setup/windows) | [macOS](https://code.visualstudio.com/docs/setup/mac) | [Linux](https://code.visualstudio.com/docs/setup/linux)
 
 * Second You will need a Ruby library on your machine. Within terminal please follow the instructions found [here](https://stackify.com/install-ruby-on-ubuntu-everything-you-need-to-get-going/)
 
